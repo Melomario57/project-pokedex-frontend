@@ -1,0 +1,15 @@
+.footer__links {
+  margin-top: 10px;
+}
+
+.footer__links a {
+  color: yellow;
+  text-decoration: none;
+  margin: 0 10px;
+
+  line-height: normal;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}

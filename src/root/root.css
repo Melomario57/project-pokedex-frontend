@@ -1,0 +1,12 @@
+.page {
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Inter", Arial, sans-serif;
+}
+h3 {
+  margin: 0;
+  text-transform: capitalize;
+}

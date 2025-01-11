@@ -1,0 +1,7 @@
+.header{
+  background-color: rgb(17, 17, 17);
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  z-index: 2;
+}

@@ -1,0 +1,13 @@
+.home-page__container {
+  width: 600px;
+  height: 500px;
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 0.20350138346354163) 0%,
+    rgba(253, 45, 45, 1) 100%
+  );
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}

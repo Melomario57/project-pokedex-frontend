@@ -1,0 +1,15 @@
+.footer{
+  color: red;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  font-family: 'Pokemon Solid';
+}
+
+.footer p {
+  margin: 0;
+  font-weight: bold;
+}

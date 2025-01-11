@@ -1,0 +1,9 @@
+.header__clear_button{
+  width: 80px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Pokemon Solid';
+}

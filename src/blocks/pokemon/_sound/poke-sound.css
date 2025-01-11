@@ -1,0 +1,11 @@
+.poke-sound{
+  background-color: red;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+  color:white;
+}
+
+.poke-sound:hover{
+  cursor: pointer;
+}

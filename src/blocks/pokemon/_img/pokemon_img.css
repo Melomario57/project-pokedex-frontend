@@ -1,0 +1,10 @@
+.pokemon_img{
+  width: 180px;
+  margin-top: 35px;
+
+}
+
+.pokemon_img:hover{
+  transform: scale(130%);
+  cursor: pointer;
+}
