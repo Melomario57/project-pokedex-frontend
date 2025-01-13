@@ -1,6 +1,6 @@
-.header__search{
+.header__search {
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, auto);
   margin-top: 25px;
   width: 300px;
   height: 60px;

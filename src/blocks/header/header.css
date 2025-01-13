@@ -1,7 +1,14 @@
-.header{
-  background-color: rgb(17, 17, 17);
-  height: 100px;
+.header {
+  background: rgb(87, 77, 77);
+  background: radial-gradient(
+    circle,
+    rgba(87, 77, 77, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding-top: 20px;
+  height: 130px;
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, auto);
   z-index: 2;
+  gap: 30px;
 }

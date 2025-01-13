@@ -1,20 +1,20 @@
-const BASE_ENDPOINT = 'https://pokeapi.co/api/v2/pokemon';
+const BASE_ENDPOINT = "https://pokeapi.co/api/v2/pokemon";
 
-export const getAllPokemons = async (limit = 151) => {
+export const getAllPokemons = async (limit = 251) => {
   try {
     const response = await fetch(`${BASE_ENDPOINT}?limit=${limit}`);
     const data = await response.json();
-    
+
     const pokemonData = await Promise.all(
       data.results.map(async (pokemon) => {
         const pokeResponse = await fetch(pokemon.url);
         const pokeData = await pokeResponse.json();
         return {
-          id:pokeData.id,
+          id: pokeData.id,
           name: pokemon.name,
-          image: pokeData.sprites.other['official-artwork'].front_default,
+          image: pokeData.sprites.front_default,
           sound: `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/${pokeData.id}.ogg`,
-          stats:{
+          stats: {
             hp: pokeData.stats[0]?.base_stat || 0,
             attack: pokeData.stats[1]?.base_stat || 0,
             defense: pokeData.stats[2]?.base_stat || 0,
@@ -27,7 +27,7 @@ export const getAllPokemons = async (limit = 151) => {
     );
     return pokemonData;
   } catch (error) {
-    console.error('Error al obtener datos de Pokémon:', error);
+    console.error("No se pudieron obtener los datos de los pokemones:", error);
     throw error;
   }
 };

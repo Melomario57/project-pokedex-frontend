@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import search from "../images/busqueda.svg"
+import React, { useState } from "react";
+import search from "../images/busqueda.svg";
 
-function SearchBar({ onSearch, onClear }){
-  const [searchTerm, setSearchTerm] = useState('');
+function SearchBar({ onSearch, onClear }) {
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleInputChange = (event) => {
     const term = event.target.value;
@@ -15,24 +15,25 @@ function SearchBar({ onSearch, onClear }){
   };
 
   const handleClear = () => {
-    setSearchTerm('');
+    setSearchTerm("");
     onClear();
   };
-  return(
+  return (
     <div className="header__search">
-      <input 
+      <input
         className="header__search_input"
-        placeholder="Busca aqui tu pokemon"
+        placeholder="Buscar pokemon"
         value={searchTerm}
-        onChange={handleInputChange}/>
+        onChange={handleInputChange}
+      />
       <button className="header__search_button" onClick={handleSearch}>
-        <img className="header__search_button-img" src={search} alt="search"/>
+        <img className="header__search_button-img" src={search} alt="search" />
       </button>
       <button className="header__clear_button" onClick={handleClear}>
-        Limpiar busqueda
+        Limpiar
       </button>
     </div>
-  )
+  );
 }
 
 export default SearchBar;

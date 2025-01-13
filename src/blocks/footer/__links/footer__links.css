@@ -3,13 +3,13 @@
 }
 
 .footer__links a {
-  color: yellow;
+  color: black;
   text-decoration: none;
   margin: 0 10px;
-
+  font-weight: 700;
   line-height: normal;
 }
 
 .footer__links a:hover {
-  text-decoration: underline;
+  opacity: 0.7;
 }

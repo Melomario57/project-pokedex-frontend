@@ -1,8 +1,9 @@
-.pokedex{
+.pokedex {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+  grid-template-columns: repeat(4, 1fr); /* 3 columnas de igual tamaño */
   gap: 30px 10px; /* Espacio entre tarjetas */
   position: relative;
   z-index: 2;
   justify-items: center;
+  width: 1200px;
 }
