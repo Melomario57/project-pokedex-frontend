@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Main from './Main';
-import Pokedex from './Pokedex';
-import Preloader from './Preloader';
-import HomePage from './Homepage';
-import Footer from './Footer';
-import { getAllPokemons} from '../utils/api';
-import PopupImage from './PopupImage';
-
+import React, { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
+import Main from "./Main";
+import Pokedex from "./Pokedex";
+import Preloader from "./Preloader";
+import HomePage from "./Homepage";
+import Footer from "./Footer";
+import { getAllPokemons } from "../utils/api";
+import PopupImage from "./PopupImage";
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
@@ -16,7 +15,6 @@ function App() {
   const [selectedPokemon, setSelectedPokemon] = useState(null);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-
   useEffect(() => {
     const getPokemons = async () => {
       try {
@@ -24,16 +22,15 @@ function App() {
         setPokemons(pokemonData);
         setFilteredPokemons(pokemonData);
         setLoading(false);
-
       } catch (error) {
-        console.error('Error al obtener datos de Pokémon:', error);
+        console.error("Error al obtener datos de Pokémon:", error);
       }
     };
 
     getPokemons();
   }, []);
 
-  function handleSearch(term){
+  function handleSearch(term) {
     if (term) {
       const filtered = pokemons.filter((pokemon) =>
         pokemon.name.toLowerCase().includes(term.toLowerCase())
@@ -42,9 +39,9 @@ function App() {
     } else {
       setFilteredPokemons(pokemons);
     }
-  };
+  }
 
-  function handleClear(){
+  function handleClear() {
     setFilteredPokemons(pokemons);
   }
 
@@ -59,14 +56,15 @@ function App() {
   };
 
   return (
-    <Router>
     <div className="page">
       <Routes>
-        <Route path="/" element={
-          <>
-            {loading ? <Preloader /> : null}
-            <HomePage />
-          </>
+        <Route
+          path="/"
+          element={
+            <>
+              {loading ? <Preloader /> : null}
+              <HomePage />
+            </>
           }
         />
         <Route
@@ -75,21 +73,23 @@ function App() {
             <>
               {loading ? <Preloader /> : null}
               <Main onSearch={handleSearch} onClear={handleClear} />
-              <Pokedex pokemons={filteredPokemons}  onPokemonClick={handlePokemonClick}/>
+              <Pokedex
+                pokemons={filteredPokemons}
+                onPokemonClick={handlePokemonClick}
+              />
               {selectedPokemon && (
-                  <PopupImage
-                    pokemon={selectedPokemon}
-                    isOpen={isPopupOpen}
-                    onClose={handleClosePopup}
-                  />
-                )}
+                <PopupImage
+                  pokemon={selectedPokemon}
+                  isOpen={isPopupOpen}
+                  onClose={handleClosePopup}
+                />
+              )}
               <Footer />
             </>
           }
         />
       </Routes>
     </div>
-  </Router>
   );
 }
 

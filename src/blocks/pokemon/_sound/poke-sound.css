@@ -1,11 +1,17 @@
-.poke-sound{
-  background-color: red;
+.poke-sound {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(244, 0, 0, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   height: 40px;
-  border-radius: 50%;
+  border-radius: 30%;
   margin-top: 10px;
-  color:white;
+  color: white;
 }
 
-.poke-sound:hover{
+.poke-sound:hover {
   cursor: pointer;
 }
