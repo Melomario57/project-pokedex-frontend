@@ -55,6 +55,17 @@ function App() {
     setSelectedPokemon(null);
   };
 
+  useEffect(() => {
+    document.addEventListener("keydown", (evt) => {
+      evt.key === "Escape" && handleClosePopup();
+    });
+    const handleClickOutside = (evt) => {
+      if (evt.target === document.querySelector(".popup")) {
+        handleClosePopup();
+      }
+    };
+  }, []);
+
   return (
     <div className="page">
       <Routes>

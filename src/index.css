@@ -1,6 +1,5 @@
 @import url("./blocks/vendor/normalize.css");
 @import url("./vendor/fonts.css");
-@import url("./root/root.css");
 @import url("./blocks/homepage/home-page.css");
 @import url("./blocks/homepage/__container/home-page__container.css");
 @import url("./blocks/homepage/__container/_title/home-page_title.css");

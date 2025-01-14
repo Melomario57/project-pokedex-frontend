@@ -6,8 +6,8 @@
 }
 
 .home-page__container_title-author {
-  padding-top: 4.5px;
-  padding-bottom: 8px;
+  padding: 0;
+  margin-bottom: 4px;
 }
 .home-page__container_title-author-image {
   width: 200px;
