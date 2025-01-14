@@ -1,107 +1,112 @@
-@media screen and (max-width: 780px) {
-  .header{
-    width: 780px;
+@media screen and (max-width: 1080px) {
+  .pokedex {
+    width: 760px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .header {
+    width: 784px;
   }
 
-  .header_img{
+  .header_img {
     height: 80px;
     width: 160px;
   }
 
-  .header__search_input{
+  .header__search_input {
     width: 200px;
   }
-  
-  .header__clear_button{
+
+  .header__clear_button {
     font-size: 70%;
     padding: 0;
     height: 50px;
     width: 60px;
   }
 
-  .welcome{
-    width: 780px;
-    padding: 0 ;
+  .welcome {
+    width: 784px;
+    padding: 0;
   }
 
-  .welcome_img{
-    width: 780px;
+  .welcome_img {
+    width: 784px;
   }
 
-  .pokedex{
-    width: 760px;
-    grid-template-columns: repeat(2, 1fr)
-    
+  .preloader {
+    width: 784px;
   }
-
-  .preloader{
-    width: 780px;
+  .pokedex {
+    width: 600px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 320px){
-  .header{
+@media screen and (max-width: 420px) {
+  .header {
     width: 320px;
     height: 50px;
   }
 
-  .header_img{
+  .header_img {
     height: 40px;
     width: 80px;
   }
-  
-  .header__search{
+
+  .header__search {
     justify-content: start;
     width: 160px;
   }
 
-  .header__search_input{
+  .header__search_input {
     width: 100px;
     height: 10px;
-    font-size:50%;
+    font-size: 50%;
   }
 
-  .header__search_button{
-    height:20px;
+  .header__search_button {
+    height: 20px;
     width: 20px;
   }
 
-  .header__search_button-img{
+  .header__search_button-img {
     height: 10px;
     width: 10px;
     font-size: 0;
   }
 
-  .header__clear_button{
+  .header__clear_button {
     font-size: 30%;
     padding: 0;
     height: 20px;
     width: 30px;
   }
 
-  .header_link{
+  .header_link {
     font-size: 50%;
     padding-top: 20px;
   }
 
-  .welcome{
+  .welcome {
     width: 310px;
-    padding: 0 ;
+    padding: 0;
   }
-  .welcome_img{
+  .welcome_img {
     width: 320px;
-  }
-  
-  .pokedex{
-    width: 320px;
-    grid-template-columns: repeat(1, 1fr)
   }
 
-  .pokemon{
+  .pokedex {
+    width: 320px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pokemon {
     justify-items: start;
   }
 
-  .preloader{
+  .preloader {
     width: 320px;
   }
 }
