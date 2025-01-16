@@ -18,11 +18,11 @@
 
 ## :stars: Imágenes del resultado final
 
-<img src="src/images/preloader.PNG"  border="0" width="500" height="500"  />
+<img src="src/images/preloader.png"  border="0" width="500" height="500"  />
 
-<img src="src/images/home.PNG"  border="0" width="500" height="500"  />
+<img src="src/images/home.png"  border="0" width="500" height="500"  />
 
-## <img src="src/images/data.PNG"  border="0" width="500" height="500"  />
+## <img src="src/images/data.png"  border="0" width="500" height="500"  />
 
 ## Link de mi página:
 
