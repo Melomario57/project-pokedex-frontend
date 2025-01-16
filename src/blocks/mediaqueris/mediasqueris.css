@@ -44,6 +44,13 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .pokedex {
+    width: 500px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @media screen and (max-width: 420px) {
   .header {
     width: 320px;
@@ -104,6 +111,7 @@
 
   .pokemon {
     justify-items: start;
+    margin: 0 auto;
   }
 
   .preloader {
