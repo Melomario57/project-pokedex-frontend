@@ -1,8 +1,10 @@
 const BASE_ENDPOINT = "https://pokeapi.co/api/v2/pokemon";
 
-export const getAllPokemons = async (limit = 251) => {
+export const getAllPokemons = async (limit = 100, offset = 151) => {
   try {
-    const response = await fetch(`${BASE_ENDPOINT}?limit=${limit}`);
+    const response = await fetch(
+      `${BASE_ENDPOINT}?limit=${limit}&offset=${offset}`
+    );
     const data = await response.json();
 
     const pokemonData = await Promise.all(

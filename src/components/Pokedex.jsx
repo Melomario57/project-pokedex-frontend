@@ -6,11 +6,6 @@ function Pokedex({ pokemons, onPokemonClick }) {
   return (
     <>
       <div className="welcome">
-        <img
-          src={fondoPokedex}
-          alt="fondo de bievenida"
-          className="welcome_img"
-        />
         <div className="pokedex">
           {pokemons.map((pokemon, index) => (
             <Pokemon

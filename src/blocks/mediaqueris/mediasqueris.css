@@ -1,15 +1,10 @@
 @media screen and (max-width: 1080px) {
   .pokedex {
-    width: 760px;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (max-width: 784px) {
-  .header {
-    width: 784px;
-  }
-
   .header_img {
     height: 80px;
     width: 160px;
@@ -27,49 +22,90 @@
   }
 
   .welcome {
-    width: 784px;
     padding: 0;
-  }
-
-  .welcome_img {
-    width: 784px;
   }
 
   .preloader {
     width: 784px;
   }
   .pokedex {
-    width: 600px;
     grid-template-columns: repeat(2, 1fr);
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .pokedex {
-    width: 500px;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 562px) {
+  .header {
+    height: 80px;
+  }
+
+  .header_img {
+    height: 60px;
+    width: 120px;
+  }
+
+  .header__search {
+    justify-content: start;
+    width: 190px;
+  }
+
+  .header__search_input {
+    width: 120px;
+    height: 20px;
+    font-size: 58%;
+  }
+
+  .header__search_button {
+    height: 25px;
+    width: 25px;
+  }
+
+  .header__search_button-img {
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+  }
+
+  .header__clear_button {
+    font-size: 56%;
+    padding: 0;
+    height: 40px;
+    width: 50px;
+  }
+
+  .header_link {
+    font-size: 65%;
+    padding-top: 30px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .header {
-    width: 320px;
-    height: 50px;
+    height: 80px;
   }
 
   .header_img {
     height: 40px;
     width: 80px;
+    padding-top: 10px;
   }
 
   .header__search {
     justify-content: start;
     width: 160px;
+    height: 35px;
   }
 
   .header__search_input {
     width: 100px;
-    height: 10px;
+    height: 16px;
     font-size: 50%;
   }
 
@@ -92,16 +128,8 @@
   }
 
   .header_link {
-    font-size: 50%;
-    padding-top: 20px;
-  }
-
-  .welcome {
-    width: 310px;
-    padding: 0;
-  }
-  .welcome_img {
-    width: 320px;
+    font-size: 62%;
+    padding-top: 26px;
   }
 
   .pokedex {

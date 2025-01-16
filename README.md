@@ -2,7 +2,7 @@
 
 ## :astonished: De que trata?
 
-### Este proyecto es una página web interactiva en donde se puede consultar la información relacionada de los pokemones de la primera y segunda generación. Para la realización del mismo, se utilizará la libreria React y otras nuevas adiciones.
+### Este proyecto es una página web interactiva en donde se puede consultar la información relacionada de los pokemones de la segunda generación. Para la realización del mismo, se utilizará la libreria React y otras nuevas adiciones.
 
 ## :wrench: :hammer: Funcionalidades añadidas
 
@@ -15,6 +15,14 @@
 4. ### Entre las funcionalidades más destacables se agregó un buscador, un botón para borrar los datos, ventanas modales que muestran las estadisticas y un botón que al hacerle click permite escuchar el sonido correspondiente de cada pokemon(versiones de videojuegos GBA y NDS).
 
 5. ### Se agregarón links que dirigen a los sitios web oficiales que sirvieron para la utilización de este proyecto así como su aviso de privacidad
+
+## :sparkles: Nota importante
+
+### Para la organización de los archivos CSS, se crearón directorios y subdirectorios correspondientes a cada elemento padre junto a sus elementos hijos para ubicarlos con más facilidad.
+
+## :iphone: Resoluciones Dispositivos
+
+### Este proyecto se adapta a pantallas que van desde 320px hasta 1280px
 
 ## :stars: Imágenes del resultado final
 
