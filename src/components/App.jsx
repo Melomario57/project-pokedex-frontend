@@ -5,7 +5,7 @@ import Pokedex from "./Pokedex";
 import Preloader from "./Preloader";
 import HomePage from "./Homepage";
 import Footer from "./Footer";
-import { getAllPokemons } from "../utils/api";
+import { getAllPokemons } from "../utils/pokeApi";
 import PopupImage from "./PopupImage";
 
 function App() {

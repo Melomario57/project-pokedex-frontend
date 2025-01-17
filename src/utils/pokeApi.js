@@ -14,7 +14,8 @@ export const getAllPokemons = async (limit = 100, offset = 151) => {
         return {
           id: pokeData.id,
           name: pokemon.name,
-          image: pokeData.sprites.front_default,
+          image: pokeData.sprites.front_shiny,
+
           sound: `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/${pokeData.id}.ogg`,
           stats: {
             hp: pokeData.stats[0]?.base_stat || 0,

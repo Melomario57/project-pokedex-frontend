@@ -22,7 +22,7 @@ function SearchBar({ onSearch, onClear }) {
     <div className="header__search">
       <input
         className="header__search_input"
-        placeholder="Buscar pokemon"
+        placeholder="Search pokemon"
         value={searchTerm}
         onChange={handleInputChange}
       />
@@ -30,7 +30,7 @@ function SearchBar({ onSearch, onClear }) {
         <img className="header__search_button-img" src={search} alt="search" />
       </button>
       <button className="header__clear_button" onClick={handleClear}>
-        Limpiar
+        Clear
       </button>
     </div>
   );
