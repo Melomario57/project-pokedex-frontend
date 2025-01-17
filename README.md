@@ -4,6 +4,8 @@
 
 ### Este proyecto es una página web interactiva en donde se puede consultar la información relacionada de los pokemones de la segunda generación. Para la realización del mismo, se utilizará la libreria React y otras nuevas adiciones.
 
+---
+
 ## :wrench: :hammer: Funcionalidades y características añadidas
 
 1. ### Agregar un prealoader personalizado (pokebola girando) que aparecera mientras se carga el contenido de la página.
@@ -28,7 +30,9 @@
 
 ## :iphone: Resoluciones Dispositivos
 
-### Este proyecto se adapta a pantallas que van desde 320px hasta 1280px
+### Este proyecto se adapta a pantallas que van desde 320px hasta 1280px.
+
+---
 
 ## :stars: Imágenes del resultado final
 
@@ -36,13 +40,17 @@
 
 <img src="src/images/home.png"  border="0" width="600" height="500"  />
 
-<img src="src/images/data.png"  border="0" width="700" height="500"  />
+<img src="src/images/data.png"  border="0" width="700" height="400"  />
 
-<img src="src/images/dataShiny.png"  border="0" width="700" height="500"  />
+<img src="src/images/dataShiny.png"  border="0" width="700" height="400"  />
+
+---
 
 ## Link de mi página:
 
 ###
+
+---
 
 ## Tecnologías utilizadas:
 
