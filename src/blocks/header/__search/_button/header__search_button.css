@@ -1,0 +1,13 @@
+.header__search_button{
+  height: 36px;
+  width: 35px;
+  border-radius: 20px;
+}
+.header__search_button-img{
+  height: 23px;
+}
+
+.header__search_button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}

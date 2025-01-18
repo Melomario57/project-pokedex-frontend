@@ -1,0 +1,19 @@
+.popup__contain {
+  background-image: url("/src/images/pokeball.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  background: radial-gradient(black 33%, transparent 33%);
+  background-size: 3px 3px;
+  border-radius: 4px;
+  flex-direction: column;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  background-color: firebrick;
+  border: 1px solid black;
+  width: 190px;
+  height: 330px;
+  position: absolute;
+  z-index: 9;
+  transition: opacity 1s linear;
+}

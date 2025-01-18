@@ -1,0 +1,18 @@
+.home-page__container_span {
+  font-size: 1.2rem;
+  margin: 0 0 0.7rem;
+  width: 300px;
+  text-align: center;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 404px) {
+  .home-page__container_span {
+    font-size: 1rem;
+    margin: 0 0 0.7rem;
+    margin-top: 7px;
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+  }
+}

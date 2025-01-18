@@ -1,0 +1,14 @@
+.popup__contain_close-icon{
+  color: #FFFFFF;
+  top: -35px;
+  right: -30px;
+  position: absolute;
+  border: none;
+  width: 32px;
+  height: 32px;
+}
+
+.popup__contain_close-icon:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.pokedex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  position: relative;
+  z-index: 2;
+
+  margin: 0 auto;
+  width: 90%;
+}

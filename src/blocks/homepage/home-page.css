@@ -1,0 +1,24 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("/src/images/allPokes.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.page {
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h3 {
+  margin: 0;
+  text-transform: capitalize;
+}
