@@ -16,7 +16,7 @@
 
 4. ### Se modifico la pokeapi para que los pokemon aparezcan en su version shiny(color alternativo en videojuegos)
 
-5. ### Entre las funcionalidades más destacables se agregó un buscador, un botón para borrar los datos, ventanas modales que muestran las estadisticas y un botón que al hacerle click permite escuchar el sonido correspondiente de cada pokemon(versiones de videojuegos GBA y NDS).
+5. ### Entre las funcionalidades más destacables se agregó un buscador, un botón para borrar los datos, ventanas modales que muestran las estadisticas y un botón que al hacerle click permite escuchar el sonido correspondiente de cada pokemon (solo en computadoras o laptops).
 
 6. ### Se agregarón links que dirigen a los sitios web oficiales que sirvieron para la utilización de este proyecto así como su aviso de privacidad.
 

@@ -86,6 +86,12 @@
   }
 }
 
+@media screen and (max-width: 420px) and (min-width: 350px) {
+  .pokedex {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .header {
     height: 80px;
